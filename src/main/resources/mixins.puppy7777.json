@@ -1,8 +1,8 @@
 {
   "required": true,
   "minVersion": "0.7",
-  "package": "com.example.examplemod.mixins",
-  "refmap": "mixins.examplemod.refmap.json",
+  "package": "com.puppy7777.noscroll.mixins",
+  "refmap": "mixins.puppy7777.refmap.json",
   "compatibilityLevel": "JAVA_8",
   "client": [
     "MixinMinecraft"

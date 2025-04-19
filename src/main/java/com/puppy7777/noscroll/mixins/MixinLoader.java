@@ -1,4 +1,4 @@
-package com.example.examplemod.mixins;
+package com.puppy7777.noscroll.mixins;
 
 import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 import org.spongepowered.asm.launch.MixinBootstrap;
@@ -9,9 +9,9 @@ import java.util.Map;
 
 public class MixinLoader implements IFMLLoadingPlugin {
     public MixinLoader() {
-        System.out.println("[ExampleMod] Injecting with IFMLLoadingPlugin.");
+        System.out.println("[NoScroll] Injecting with IFMLLoadingPlugin.");
         MixinBootstrap.init();
-        Mixins.addConfiguration("mixins.examplemod.json"); //TODO: Add your own mixin config file here
+        Mixins.addConfiguration("mixins.puppy7777.json"); //TODO: Add your own mixin config file here
         MixinEnvironment.getDefaultEnvironment().setSide(MixinEnvironment.Side.CLIENT);
     }
 
